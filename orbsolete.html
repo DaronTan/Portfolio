@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daron's Portfolio</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/1eb19a4538.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div id="content-whole">
+        <div id="header">
+            <div class="container">
+                <nav class="header">
+                    <a href="index.html" class="logo">DT</a>
+                    <ul id="sidebar">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#artworks">Artworks</a></li>
+                        <li><a href="index.html#games">Projects</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><i class="fa-solid fa-xmark" onclick="closeBar()"></i></li>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openBar()"></i>
+                </nav>
+
+            </div>
+        </div>
+
+        <!-- Title -->
+        <div id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="home-col-1">
+                        <div class="header-text">
+                            <p>Game Project</p>
+                            <h1><span class="magic-text">Orbsolete</span><br>a point and click game.</h1>
+                            <p>Softwares Used: <span id="name">Unity | Firebase</span></p> <br>
+                            <h3>Engine</h3>
+                            <p id="name">Unity</p> <br>
+                            <h3>Softwares</h3>
+                            <p id="name">Firebase</p>
+
+                        </div>
+                    </div>
+                    <div class="home-col-2">
+                        <div class="header-text">
+                            <br>
+                            <h3>Platform</h3>
+                            <p id="name">Windows PC</p> <br>
+                            <h3>Duration</h3>
+                            <p id="name">4 weeks</p> <br>
+                            <h3>Team Size</h3>
+                            <p id="name">1</p> <br>
+                            <h3>Roles</h3>
+                            <p id="name">Lead Game Designer, Lead Game Programmer, Project Manager</p> <br>
+                        </div>
+                    </div>
+                    <div id="projects">
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">Project Description</h2>
+                            <p>This game was made in Unity for gameplay using C# & used Firebase for data storage
+                                features.</p>
+                            <br>
+                            <p>The project was a solo project incorporating Firebase
+                                to make games more interactive and interesting.</p>
+                            <br>
+                        </div>
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">Gameplay</h2>
+                            <p>The player clicks on orbs to accumulate score and accuracy.</p> <br>
+                            <p>Orbsolete has 2 different gamemodes with 3 levels of difficulty; normal & endless with
+                                difficulty ranging from easy, medium to hard.</p> <br>
+                            <p>Normal gamemode has a set timer of 60 seconds for players to accumulate scores.</p> <br>
+                            <p>Endless gamemode has no timer and players can keep playing endlessly to accumulate scores
+                                until they lose.</p> <br>
+                            <p>Players can win by completing the 60 seconds on normal gamemode while endless players can
+                                only lose by either getting a negative score or missing an orb before it despawns.</p>
+                            <br>
+                            <video autoplay loop muted>
+                                <source src="projects/orbsolete/Orbsolete_Gameplay.mp4">
+                            </video>
+                        </div>
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">Firebase Usage</h2>
+                            <p>This project was made experimenting with Firebase authentication, and realtime database.
+                            </p> <br>
+                            <p>Players can sign-in with an account, track and see their statistics as well as
+                                leaderboard that displays realtime scores.
+                            </p> <br>
+                            <p>Some statistics players can see are total score, accuracy, highest score and account
+                                creation dates.
+                            </p> <br>
+                            <video autoplay loop muted>
+                                <source src="projects/orbsolete/Orbsolete_Firebase.mp4">
+                            </video>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>

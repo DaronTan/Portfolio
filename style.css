@@ -340,8 +340,8 @@ h1 > .magic-text {
 
 .games-list {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	grid-gap: 40px;
+	grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+	grid-gap: 60px;
 	margin-top: 50px;
 	padding: 0 50px;
 }
@@ -596,6 +596,11 @@ form .button {
 	display: none;
 }
 
+/* projects */
+#projects {
+	padding-top: 50px;
+	padding-bottom: 200px;
+}
 /* css for small screens */
 
 nav .fa-solid {
