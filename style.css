@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 /* affects every element */
 * {
@@ -56,10 +57,12 @@ img {
 }
 
 .logo {
+	font-family: "Caveat", sans-serif, Arial;
 	text-transform: uppercase;
 	font-size: 60px;
 	font-weight: bold;
 	width: 140px;
+	text-decoration: none;
 }
 
 .header ul li {
@@ -146,7 +149,6 @@ h1 > .magic-text {
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	white-space: nowrap;
 }
 
 /* Home section */
@@ -378,7 +380,7 @@ h1 > .magic-text {
 	flex-direction: column;
 	padding: 0 40px;
 	font-size: 1.5vw;
-	transition: width 0.75s;
+	transition: width 0.6s;
 }
 
 .layer h2 {
@@ -603,6 +605,19 @@ form .button {
 #projects {
 	padding-top: 50px;
 	padding-bottom: 200px;
+}
+
+/* Footer */
+.footerBottom {
+	background-color: #00000060;
+	padding: 20px;
+	text-align: center;
+	margin-top: 80px;
+	backdrop-filter: blur(5px);
+}
+
+.footerBottom p {
+	color: white;
 }
 /* css for small screens */
 
