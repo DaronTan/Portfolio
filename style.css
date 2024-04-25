@@ -39,7 +39,8 @@ img {
 }
 
 .sticky {
-	background-color: #65646442;
+	background-color: #6564643b;
+	backdrop-filter: blur(5px);
 	transition: 0.5s;
 }
 
@@ -302,7 +303,7 @@ h1 > .magic-text {
 .artwork .layer {
 	width: 100%;
 	height: 0;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), #c1c1c1a8);
+	background: linear-gradient(rgba(0, 0, 0, 0.322), #c1c1c186);
 	border-radius: 10px;
 	position: absolute;
 	left: 0;
@@ -329,6 +330,7 @@ h1 > .magic-text {
 
 .artwork:hover .layer {
 	height: 100%;
+	backdrop-filter: blur(5px);
 }
 
 /* Games section */
@@ -394,6 +396,7 @@ h1 > .magic-text {
 .game:hover .layer {
 	height: 100%;
 	width: 100%;
+	backdrop-filter: blur(5px);
 }
 
 .slideshow-container {
