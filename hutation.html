@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daron's Portfolio</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/1eb19a4538.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div id="content-whole">
+        <div id="header">
+            <div class="container">
+                <nav class="header">
+                    <a href="index.html" class="logo">DT</a>
+                    <ul id="sidebar">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#artworks">Artworks</a></li>
+                        <li><a href="index.html#games">Projects</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><i class="fa-solid fa-xmark" onclick="closeBar()"></i></li>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openBar()"></i>
+                </nav>
+
+            </div>
+        </div>
+
+        <!-- Title -->
+        <div id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="home-col-1">
+                        <div class="header-text">
+                            <p>Game Project</p>
+                            <h1><span class="magic-text">Hutation</span><br>a VR puzzle solving game.</h1>
+                            <p> 3D VR Unity Project enhanced with <span id="name">Firebase & Meta Quest</span></p> <br>
+                            <h3>Engine</h3>
+                            <p id="name">Unity</p> <br>
+                            <h3>Softwares</h3>
+                            <p id="name">Firebase | Meta Quest</p>
+
+                        </div>
+                    </div>
+                    <div class="home-col-2">
+                        <div class="header-text">
+                            <br>
+                            <h3>Platform</h3>
+                            <p id="name">Windows PC</p> <br>
+                            <h3>Duration</h3>
+                            <p id="name">4 weeks</p> <br>
+                            <h3>Team Size</h3>
+                            <p id="name">4</p> <br>
+                            <h3>Roles</h3>
+                            <p id="name">Lead 3D Artist, Lead Game Level designer</p> <br>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">Project Description</h2>
+                            <p>This game was made in Unity and implemented Meta Quest packages for VR implementation,
+                                accompanied by Firebase packages for realtime database features.</p>
+                            <br>
+                            <p>The project was a team project incorporating Meta Quest & Firebase
+                                to make an engaging VR game experience.</p>
+                            <br>
+                        </div>
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">Gameplay</h2>
+                            <p>The player is a lab experimented mutant living in space in the future and wishes to
+                                escape the lab.</p> <br>
+                            <p>The player has gotten a special ability to magnetise metallic objects to control them
+                                through telekinesis.</p> <br>
+                            <p>The game is first person in VR and the player must navigate each room to ultimately
+                                escape the ship using the escape pod in the Dome room.</p> <br>
+                            <p>While escaping, the player encounters traps, obstacles set in place to prevent them from
+                                leaving. As such, the player must use their abilities to overcome these obstacles.</p>
+                            <br>
+                            <p>The types of obstacles are: wall lasers, turrets, platforms, scraps, and scrap deposit
+                                bins.</p>
+                            <br>
+                        </div>
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">Environment & Level Design</h2>
+                            <p>For this project, I was the lead 3D Artist & the lead Game Level Designer. As such, I
+                                have made most of the 3D Assets & level layouts.</p> <br>
+                            <p>Since the game was in VR, the graphics of the game could not be as high detailed as I
+                                envisoned. But, I have used lighting and modular building to make the
+                                levels more vibrant & dynamic.</p> <br>
+                            <p>The game was made with the different levels in mind that have varying levels of gameplay
+                                and map size that increases incrementally.</p> <br>
+                            <p>The assets were all made to be optimized for the game & 3D assets in Unity were also
+                                tweaked to save on resources.</p>
+                            <br>
+                            <p>Hutation Environment Walkthrough video that covers the environments & level maps. Not all
+                                gameplay is covered in the walkthrough.</p>
+                            <br>
+                            <div class="project-vid">
+                                <iframe src="https://www.youtube.com/embed/P7GUBFdwGwE?mute=1"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">Level 1: The Lab</h2>
+                            <p>This level is the first level where the player spawns in.
+                            </p> <br>
+                            <p>I decided that the level should be small and easy to navigate in as the player needs to
+                                log in to play the game on this level.
+                            </p> <br>
+                            <p>I made use of lights & colors to make the map more interesting and vibrant. Lights are
+                                baked for game efficiency.
+                            </p> <br>
+                            <video autoplay loop muted>
+                                <source src="projects/hutation/Lab_2.mp4">
+                            </video>
+                        </div>
+
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">Level 2-4: The maps with increasing gameplay & size
+                            </h2>
+                            <p>The levels 2-4 are where the main gameplay aspect takes place.
+                            </p> <br>
+                            <p>The levels introduce new gameplay mechanics as the player progresses and the map expands
+                                in size as well.
+                            </p> <br>
+                            <p>I made use of different 3D assets & lighting to make the map more attractive & sets the
+                                mood. Lights
+                                are
+                                baked for game efficiency.
+                            </p> <br>
+                            <p>The levels are designed to make the place feel suffocating, uneasy which encourages the
+                                player to escape and complete the game.
+                            </p> <br>
+                            <video autoplay loop muted>
+                                <source src="projects/hutation/Room2-4.mp4">
+                            </video>
+                        </div>
+
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">Level 5: Dome, the final level
+                            </h2>
+                            <p>Dome is the last level where the player can take the escape pod to complete the game.
+                            </p> <br>
+                            <p>The level has no new mechanics but has a different design compared to previous levels.
+                            </p> <br>
+                            <p>I made use of lighting, 3D assets & Unity terrain to build the map.
+                            </p> <br>
+                            <p>The level is designed to make players feel a sense of freedom, after going through
+                                previous levels and they can finally escape the place.
+                            </p> <br>
+                            <video autoplay loop muted>
+                                <source src="projects/hutation/Dome.mp4">
+                            </video>
+                        </div>
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">3D Assets
+                            </h2>
+                            <p>These are the 3D Assets made by me and my teammates.
+                            </p> <br>
+                            <p>I have used texture atlas to texture all the assets & modelled, optimized the models.
+                            </p> <br>
+                            <img src="projects/hutation/Hutation_3Dassets.png" alt="Image of 3D assets made">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024; Made By <span class="designer">Daron Tan</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
