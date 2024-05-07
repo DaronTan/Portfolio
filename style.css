@@ -170,7 +170,7 @@ h1 > .magic-text {
 /* Home section */
 
 #home {
-	padding-top: 200px;
+	padding-top: 250px;
 	padding-bottom: 400px;
 	margin-left: 70px;
 	margin-right: 70px;
@@ -185,6 +185,7 @@ h1 > .magic-text {
 	font-size: 20px;
 	padding: 50px 0;
 }
+
 .row {
 	display: flex;
 	justify-content: space-between;
@@ -358,9 +359,8 @@ h1 > .magic-text {
 
 #games {
 	padding-top: 100px;
-	padding-bottom: 400px;
-	margin-left: 100px;
-	margin-right: 100px;
+	padding-bottom: 100px;
+	margin: 150px;
 }
 
 .games-list {
@@ -486,12 +486,13 @@ h1 > .magic-text {
 }
 
 .contact-info {
-	flex-basis: 35%;
+	font-size: 20px;
 }
 
-.email-form {
-	flex-basis: 60%;
+.contact-info a{
+	text-decoration: none;
 }
+
 
 .contact-info p {
 	margin-top: 30px;
@@ -512,114 +513,9 @@ h1 > .magic-text {
 	text-decoration: none;
 	font-size: 25px;
 	margin-right: 15px;
+	margin-left: 15px;
 	color: #f9f9bd;
 	display: inline-block;
-}
-
-.btn {
-	display: block;
-	margin: 20px auto;
-	width: fit-content;
-	border: 1px solid #370045;
-	padding: 14px 40px;
-	border-radius: 6px;
-	text-decoration: none;
-	color: rgb(255, 255, 255);
-	transition: 0.3s;
-}
-
-.btn:hover {
-	background: rgb(124, 82, 198);
-}
-
-.btn.button {
-	display: inline-block;
-	background-color: #690083;
-	transition: 0.2s;
-}
-
-#form {
-	width: 100%;
-}
-
-form input,
-form textarea {
-	width: 100%;
-	border: 0;
-	outline: none;
-	background: #363535;
-	padding: 15px;
-	margin: 15px 0;
-	color: white;
-	font-size: 18px;
-	border-radius: 6px;
-}
-
-form .button {
-	padding: 14px 60px;
-	font-size: 18px;
-	margin-top: 20px;
-	cursor: pointer;
-}
-
-.checkmark {
-	font-size: 75px;
-	color: rgb(60, 219, 60);
-	margin-top: 30px;
-}
-
-.pop-up {
-	width: 400px;
-	background: rgb(224, 224, 224);
-	border-radius: 6px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%) scale(0.1);
-	color: black;
-	text-align: center;
-	padding: 0 30px 30px;
-	visibility: hidden;
-	transition: transform 0.4s, top 0.4s;
-}
-
-.pop-up h2 {
-	font-weight: 500;
-	margin: 30px 0 10px;
-}
-
-.pop-up p {
-	margin: 10px 0 5px;
-	padding: 0 20px;
-}
-
-.pop-up button {
-	width: 100%;
-	margin-top: 20px;
-	padding: 10px 0;
-	background: #4d4d4d72;
-	color: black;
-	border: none;
-	outline: none;
-	font-size: 17px;
-	border-radius: 4px;
-	cursor: pointer;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-	transition: 0.3s;
-}
-
-.pop-up button:hover {
-	background: #6fd649;
-}
-
-.open-popUp {
-	visibility: visible;
-	top: 50%;
-	transform: translate(-50%, -50%) scale(1);
-}
-
-.hidden {
-	display: none;
 }
 
 /* projects */
@@ -642,6 +538,7 @@ form .button {
 .footerBottom p {
 	color: white;
 }
+
 /* css for small screens */
 
 nav .fa-solid {
@@ -771,22 +668,6 @@ nav .fa-solid {
 
 	.contact-info p {
 		margin: 20px 0 0;
-	}
-
-	form input,
-	form textarea {
-		padding: 10px;
-		margin: 10px 0;
-		color: white;
-		font-size: 15px;
-		border-radius: 6px;
-	}
-
-	form .button {
-		padding: 13px 60px;
-		font-size: 14px;
-		margin-top: 10px;
-		cursor: pointer;
 	}
 
 	.project-vid iframe{

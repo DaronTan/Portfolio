@@ -49,37 +49,6 @@ function showSlides(n) {
 	slides[slideIndex - 1].style.display = "block";
 }
 
-//js for popup under Contact section
-let popup = document.getElementById("popup");
-let hide = document.getElementById("content-whole");
-
-function openPopup() {
-	popup.classList.add("open-popUp");
-	hide.classList.add("hidden");
-}
-
-function closePopup() {
-	popup.classList.remove("open-popUp");
-	hide.classList.remove("hidden");
-}
-
-function checkValid() {
-	var inputname = document.getElementById("input-name");
-	var inputemail = document.getElementById("input-email");
-	var inputphone = document.getElementById("input-phone");
-	var inputtext = document.getElementById("input-text");
-	if (
-		!inputname.value.length &&
-		!inputemail.value.length &&
-		!inputphone.value.length &&
-		!inputtext.value.length
-	) {
-		return;
-	} else {
-		openPopup();
-	}
-}
-
 //js for mobile view navigation bar
 var sidebar = document.getElementById("sidebar");
 
