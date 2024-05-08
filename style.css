@@ -359,7 +359,7 @@ h1 > .magic-text {
 
 #games {
 	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-bottom: 0px;
 	margin: 150px;
 }
 
@@ -391,7 +391,7 @@ h1 > .magic-text {
 .game .layer {
 	width: 0;
 	height: 0;
-	background: linear-gradient(90deg, rgba(0, 0, 0, 0.4), #726b73a2);
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.4), #4e494e79);
 	border-radius: 10px;
 	position: absolute;
 	left: 0;
@@ -419,7 +419,7 @@ h1 > .magic-text {
 .game:hover .layer {
 	height: 100%;
 	width: 100%;
-	backdrop-filter: blur(5px);
+	backdrop-filter: blur(1px);
 }
 
 .slideshow-container {
@@ -521,9 +521,21 @@ h1 > .magic-text {
 /* projects */
 #projects {
 	padding-top: 50px;
-	padding-bottom: 200px;
+	padding-bottom: 25px;
 	margin-left: 200px;
 	margin-right: 200px;
+}
+
+.up-arrow {
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+.up-arrow a{
+	text-decoration: none;
+	color: #f9f9bd;
+	font-size: 50px;
 }
 
 /* Footer */

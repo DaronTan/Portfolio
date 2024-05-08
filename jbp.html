@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daron's Portfolio</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/1eb19a4538.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div id="content-whole">
+        <div id="header">
+            <div class="container">
+                <nav class="header">
+                    <a href="index.html" class="logo">DT</a>
+                    <ul id="sidebar">
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="index.html#artworks">Artworks</a></li>
+                        <li><a href="index.html#games">Projects</a></li>
+                        <li><a href="mailto:darontanweize@gmail.com">Contact</a></li>
+                        <li><i class="fa-solid fa-xmark" onclick="closeBar()"></i></li>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openBar()"></i>
+                </nav>
+
+            </div>
+        </div>
+
+        <!-- Title -->
+        <div id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="home-col-1">
+                        <div class="header-text">
+                            <p>Game Project</p>
+                            <h1><span class="magic-text">Reminiscing Jurong Bird Park</span><br>a VR 360 experience.
+                            </h1>
+                            <p> 3D VR Unity Project enhanced with <span id="name">Firebase & Meta Quest</span></p> <br>
+                            <h3>Engine</h3>
+                            <p id="name">Unity</p> <br>
+                            <h3>Softwares</h3>
+                            <p id="name">Firebase | Meta Quest | Autodesk Maya | Adobe Substance 3D Painter | Quixel
+                                Bridge</p>
+                        </div>
+                    </div>
+                    <div class="home-col-2">
+                        <div class="header-text">
+                            <br>
+                            <h3>Platform</h3>
+                            <p id="name">Meta Quest 2 & Quest 3 & Quest Pro</p> <br>
+                            <h3>Duration</h3>
+                            <p id="name">4 weeks</p> <br>
+                            <h3>Team Size</h3>
+                            <p id="name">3</p> <br>
+                            <h3>Roles</h3>
+                            <p id="name">Lead 3D Artist, Game Level Designer</p> <br>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">Project Description</h2>
+                            <p>This experience was made in Unity and implemented Meta Quest packages for VR
+                                implementation, and
+                                with Firebase packages for realtime database features used for the
+                                accompanying website.</p>
+                            <br>
+                            <p>The project was a team project incorporating Meta Quest & Firebase
+                                to make an engaging VR 360 experience about Jurong Bird Park.</p>
+                            <br>
+                        </div>
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">Gameplay</h2>
+                            <p>The user can experience a visit to Jurong Bird Park in VR as they travel the park with
+                                navigation features in the experience.</p> <br>
+                            <p>The experience made use of 360 photos from google maps to simulate the real park with
+                                information and gamification that can only be experienced through VR.</p> <br>
+                            <p>The experience is first person in VR and the player can visit different bird enclosures
+                                to learn about the different species.</p> <br>
+                            <p>After touring all enclosures, the user can take a quiz to test their knowledge on the
+                                birds at Jurong Bird Park. The user can track their progress on the website my teammate
+                                made.</p>
+                            <br>
+                            <p>This experience is to remind or show what Jurong Bird Park was before its closure and
+                                introduce the newly opened Mandai Bird Paradise for users to visit instead.</p>
+                            <br>
+                        </div>
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">Environment & Level Design</h2>
+                            <p>For this project, I was the lead 3D Artist & a Game Level Designer. As such, I
+                                have made the 3D Assets & designed the flow of the enclosures & some features that users
+                                can interact with.</p> <br>
+                            <p>Since the game was in 360 VR, all enclosures are 360 photos and includes interactive
+                                features. But, I have used lighting and modular building to make the
+                                quiz level look vibrant.</p> <br>
+                            <p>The quiz level used modular realistic assets from Quixel Bridge and I had modelled a
+                                macaw toy to be used for the quiz.</p> <br>
+                            <p>The levels have features with UI and I did the designs for the UI in the main menus as
+                                well. I have also added ambient sound of birds, and parks.</p>
+                            <br>
+                            <p>Jurong Bird Park loop: Treasure chest feature is a wishlisted feature.</p>
+                            <br>
+                            <img src="projects/JBP/ASG2 JBP Loop.png" alt="Image of Jurong Bird Park loop">
+                        </div>
+                        <div class="header-text">
+                            <h2 class="magic-text recent-title">Bird Enclosures</h2>
+                            <p>There are 5 different bird enclosures that users can visit and learn about the wide
+                                variety of species.
+                            </p> <br>
+                            <p>Using 360 photos of Jurong Bird Park locations, users can go through the experience in VR
+                                relatively similar to the actual park.
+                            </p> <br>
+                            <p>Each enclosures have their own Info Board about some species and Move Arrows to be used
+                                to navigate the experience.
+                            </p> <br>
+                            <div class="games-list">
+                                <div class="game">
+                                    <div class="slide_container">
+                                        <div class="slides fading">
+                                            <img src="projects/JBP/penguin_coast_entr.png"
+                                                alt="penguin coast entrance image">
+                                            <div class="layer">
+                                                <h2>Penguin Coast entrance</h2>
+                                                <p>This is the Penguin Coast enclosure entrance where the users can see
+                                                    and learn about penguins in the park.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="slides fading">
+                                            <img src="projects/JBP/penguin_coast.png"
+                                                alt="inside the penguin coast enclosure image">
+                                            <div class="layer">
+                                                <h2>Penguin Coast experience</h2>
+                                                <p>This is the Penguin Coast enclosure experience where the users can
+                                                    use the Info Boards to learn about 2 penguin species.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="slides fading">
+                                            <img src="projects/JBP/flamingo_pool_entr.png"
+                                                alt="flamingo pool entrance image">
+                                            <div class="layer">
+                                                <h2>Flamingo Pool entrance</h2>
+                                                <p>This is the Flamingo Pool entrance where the users can visit and
+                                                    learn about flamingos in the park.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="slides fading">
+                                            <img src="projects/JBP/flamingo_pool.png"
+                                                alt="inside the flamingo pool enclosure image">
+                                            <div class="layer">
+                                                <h2>Flamingo Pool experience</h2>
+                                                <p>This is the Flamingo Pool enclosure experience where the users can
+                                                    use the Info Boards to learn about a flamingo species and fun facts.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="slides fading">
+                                            <img src="projects/JBP/pelican_cove_entr.png"
+                                                alt="pelican cove entrance image">
+                                            <div class="layer">
+                                                <h2>Pelican Cove entrance</h2>
+                                                <p>This is the Pelican Cove entrance where the users can visit and
+                                                    learn about pelicans in the park.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="slides fading">
+                                            <img src="projects/JBP/pelican_cove.png"
+                                                alt="inside the pelican cove enclosure image">
+                                            <div class="layer">
+                                                <h2>Pelican Cove experience</h2>
+                                                <p>This is the Pelican Cove enclosure experience where the users can
+                                                    use the Info Boards to learn about 2 pelican species.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="slides fading">
+                                            <img src="projects/JBP/jungle_jewel_entr.png"
+                                                alt="jungle jewels entrance image">
+                                            <div class="layer">
+                                                <h2>Jungle Jewels entrance</h2>
+                                                <p>This is the Jungle Jewels entrance where the users can visit and
+                                                    learn about macaws in the park.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="slides fading">
+                                            <img src="projects/JBP/jungle_jewel.png"
+                                                alt="inside the jungle jewel enclosure image">
+                                            <div class="layer">
+                                                <h2>Jungle Jewel experience</h2>
+                                                <p>This is the Jungle Jewel enclosure experience where the users can
+                                                    use the Info Boards to learn about 2 macaw species.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="slides fading">
+                                            <img src="projects/JBP/wetlands_entr.png" alt="wetlands entrance image">
+                                            <div class="layer">
+                                                <h2>Wetlands entrance</h2>
+                                                <p>This is the Wetlands entrance where the users can visit and
+                                                    learn about different birds in the wetlands.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="slides fading">
+                                            <img src="projects/JBP/wetlands.png"
+                                                alt="inside the wetlands enclosure image">
+                                            <div class="layer">
+                                                <h2>Wetlands experience</h2>
+                                                <p>This is the Wetlands enclosure experience where the users can
+                                                    use the Info Boards to learn about a bird species in the wetlands.
+                                                    They can learn more by visiting the Mandai Bird Paradise park.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="header-text">
+                                <h2 class="magic-text recent-title">Feature: Move Arrow
+                                </h2>
+                                <p>The Move Arrow feature is for user navigation to move around the experience.
+                                </p> <br>
+                                <p>The arrows can be interactive with by pressing RT or LT on the Oculus Quest
+                                    controllers.
+                                </p> <br>
+                                <p>When the user hovers over the arrows, the color changes to light blue and a sound is
+                                    played, indicating that the user can click to interact.
+                                </p><br>
+                                <img src="projects/JBP/move_arrow.png" alt="Image about the Move Arrow Feature">
+                            </div>
+
+                            <div class="header-text">
+                                <h2 class="magic-text recent-title">Feature: Info Board
+                                </h2>
+                                <p>The Info Board feature is for user to learn about the different bird species in the
+                                    respective bird enclosures.
+                                </p> <br>
+                                <p>The boards can be interactive with by pressing RT or LT on the Oculus Quest
+                                    controllers.
+                                </p> <br>
+                                <p>When the user hovers over the board, the color of the "EXPAND <>" text changes to
+                                        light
+                                        blue and a sound is played, indicating that the user can click to interact.
+                                </p><br>
+                                <img src="projects/JBP/info_board.png" alt="Image about the Info Board Feature">
+                            </div>
+
+                            <div class="header-text">
+                                <h2 class="magic-text recent-title">Feature: Map
+                                </h2>
+                                <p>The Map feature is for user to navigate and "teleport" to the entrance of the
+                                    selected enclosure.
+                                </p> <br>
+                                <p>The map has different points which showss the location of the enclosures to the
+                                    users. The user can click on one point to "teleport" to the entrance of that
+                                    enclosure.
+                                </p> <br>
+                                <p>The map also has UI instructions on how to navigate the experience on the top left of
+                                    the map. There is a sign at the start of the experience to help new users navigate
+                                    the controls.
+                                </p><br>
+                                <img src="projects/JBP/map_and_sign.png" alt="Image about the Map Feature">
+                            </div>
+
+                            <div class="header-text">
+                                <h2 class="magic-text recent-title">Feature: Quiz
+                                </h2>
+                                <p>The Quiz feature is for user to test their knowledge of the birds they have
+                                    experienced in the 360 VR experience.
+                                </p> <br>
+                                <p>The quiz has 5 simple multiple choice set of questions and the user can grab the
+                                    toy macaw on the table to toss into one of the buckets to answer the question.
+                                </p> <br>
+                                <p>The user would get their score at the end after the quiz and they can always attempt
+                                    the quiz again.
+                                </p><br>
+                                <p>I had used Quixel Bridge 3D assets to build the quiz scene. The toy macaw was
+                                    self-made & lighting was baked for efficiency.
+                                </p><br>
+                                <img src="projects/JBP/ASG2_HelloHolo_Quiz_Scene.png"
+                                    alt="Image about the Quiz Feature">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="up-arrow">
+                <a href="#projects"><i class="fa-solid fa-circle-chevron-up"></i></a>
+            </div>
+            <div class="footerBottom">
+                <div class="container">
+                    <h2 class="contact-header magic-text">Contact</h2>
+                    <div class="contact-info">
+                        <a href="mailto:darontanweize@gmail.com" target="_blank">
+                            <p><i class="fa-regular fa-paper-plane"></i>darontanweize@gmail.com</p>
+                        </a>
+                        <p><i class="fa-sharp fa-solid fa-phone"></i>+65 8686 9667</p>
+                    </div>
+                </div>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/dtwz/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://darontan.artstation.com/" target="_blank"><i
+                            class="fa-brands fa-artstation"></i></a>
+                </div>
+                <br><br>
+                <p>Copyright &copy;2024; Made By <span class="designer">Daron Tan</span></p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
