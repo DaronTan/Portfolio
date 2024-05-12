@@ -72,6 +72,13 @@ img {
 	flex-wrap: wrap;
 }
 
+.header img{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
 .logo {
 	font-family: "Caveat", sans-serif, Arial;
 	text-transform: uppercase;
@@ -79,6 +86,11 @@ img {
 	font-weight: bold;
 	width: 140px;
 	text-decoration: none;
+}
+
+.logo img{
+	width: 100px;
+	height: 100px;
 }
 
 .header ul li {
@@ -595,6 +607,11 @@ nav .fa-solid {
 		font-size: 40px;
 		font-weight: bold;
 		width: 140px;
+	}
+
+	.logo img{
+		width: 60px;
+		height: 60px;
 	}
 
 	.sub-title {
