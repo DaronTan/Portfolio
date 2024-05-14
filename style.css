@@ -747,18 +747,38 @@ nav .fa-solid {
 		margin-right: 0px;
 	}
 	
+	#projects h1 {
+		font-size: 25px;
+	}
+
+	#projects h2 {
+		font-size: 23px;
+	}
+
+	#projects h3 {
+		font-size: 21px;
+	}
+
+	#projects p {
+		font-size: 15px;
+	}
+
+	#projects .header-text {
+		width: 100%;
+	}
+
 	video {
-		width: auto;
-		height: 200px;
+		width: 100%;
+		height: 100%;
 	}
 
 	.project-vid iframe{
 		width:100%;
-		height: 200px;
+		height: 100%;
 	}
 
 	.project-vid {
 		width:100%;
-		height: 200px;
+		height: 250px;
 	}
 }
