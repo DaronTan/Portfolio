@@ -700,6 +700,10 @@ nav .fa-solid {
 		font-size: 1.5vw;
 	}
 
+	.game:hover img {
+		transform: scale(1);
+	}
+
 	.game .small-view {
 		font-size: 2vw;
 		display: flex;
