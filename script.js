@@ -1,3 +1,14 @@
+//js for mobile view navigation bar
+var sidebar = document.getElementById("sidebar");
+
+function openBar() {
+	sidebar.style.right = "0";
+}
+
+function closeBar() {
+	sidebar.style.right = "-200px";
+}
+
 // js for tab links under About section
 
 var tablinks = document.getElementsByClassName("tab-links");
@@ -49,13 +60,3 @@ function showSlides(n) {
 	slides[slideIndex - 1].style.display = "block";
 }
 
-//js for mobile view navigation bar
-var sidebar = document.getElementById("sidebar");
-
-function openBar() {
-	sidebar.style.right = "0";
-}
-
-function closeBar() {
-	sidebar.style.right = "-200px";
-}
