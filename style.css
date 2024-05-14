@@ -578,11 +578,6 @@ nav .fa-solid {
 		padding: 10px 15px;
 	}
 
-	.project-vid iframe{
-		width:100%;
-		height: 100%;
-	}
-
 	nav .fa-solid {
 		display: block;
 		font-size: 25px;
@@ -745,8 +740,25 @@ nav .fa-solid {
 		margin: 20px 0 0;
 	}
 
+	#projects {
+		padding-top: 50px;
+		padding-bottom: 25px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	video {
+		width: auto;
+		height: 200px;
+	}
+
 	.project-vid iframe{
 		width:100%;
-		height: 307px;
+		height: 200px;
+	}
+
+	.project-vid {
+		width:100%;
+		height: 200px;
 	}
 }
