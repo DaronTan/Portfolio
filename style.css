@@ -565,6 +565,7 @@ h1 > .magic-text {
 
 .footerBottom p {
 	color: white;
+	text-decoration: none;
 }
 
 /* css for small screens */
