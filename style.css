@@ -21,7 +21,7 @@ html, body {
 
 body {
 	color: white;
-	background-color: #232323;
+	background-color: #1a1d20;
 }
 
 video {
@@ -111,7 +111,7 @@ img {
 	content: "";
 	width: 0;
 	height: 3px;
-	background: #690083;
+	background: #005e83;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -136,10 +136,10 @@ h1 > .magic-text {
 	animation: background-pan 3s linear reverse infinite;
 	background: linear-gradient(
 		to right,
-		rgb(123, 31, 162),
-		rgb(124, 82, 198),
-		rgb(244, 124, 164),
-		rgb(123, 31, 162)
+		rgb(31, 110, 162),
+		rgb(82, 109, 198),
+		rgb(242, 244, 124),
+		rgb(31, 114, 162)
 	);
 	background-size: 200%;
 	-webkit-background-clip: text;
@@ -152,31 +152,16 @@ h1 > .magic-text {
 	animation: background-pan 3s linear infinite;
 	background: linear-gradient(
 		to right,
-		rgb(165, 41, 218),
-		rgb(154, 102, 245),
-		rgb(250, 146, 181),
-		rgb(165, 41, 218)
+		rgb(31, 114, 162),
+		rgb(82, 109, 198),
+		rgb(242, 244, 124),
+		rgb(31, 114, 162)
 	);
 	background-size: 200%;
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	white-space: nowrap;
-}
-
-.logo {
-	animation: background-pan 3s linear forwards infinite;
-	background: linear-gradient(
-		to right,
-		rgb(63, 8, 125),
-		rgb(110, 4, 167),
-		rgb(178, 15, 211),
-		rgb(63, 8, 125)
-	);
-	background-size: 200%;
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 /* Home section */
@@ -516,7 +501,7 @@ h1 > .magic-text {
 }
 
 .contact-info p i {
-	color: rgb(126, 1, 164);
+	color: #0189b3;
 	margin-right: 15px;
 	font-size: 25px;
 }
