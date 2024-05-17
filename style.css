@@ -548,7 +548,7 @@ h1 > .magic-text {
 	backdrop-filter: blur(5px);
 }
 
-.blue-link-fix {
+.blue-link-fix p{
 	color: #ffffff !important;
 	text-decoration: none;
 }
