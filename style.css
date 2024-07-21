@@ -243,6 +243,18 @@ h1 > .magic-text {
 	padding-bottom: 40px;
 }
 
+.cv {
+	padding-left: 50px;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+.cv a{
+	text-decoration: none;
+	color: #f9f9bd;
+	font-size: 30px;
+}
+
 .tab-titles {
 	display: flex;
 	margin: 20px 0 40px 50px;
@@ -649,6 +661,19 @@ nav .fa-solid {
 		text-align: left;
 	}
 	
+	.cv {
+		padding-left: 0px;
+		text-align: left;
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+	
+	.cv a{
+		text-decoration: none;
+		color: #f9f9bd;
+		font-size: 20px;
+	}
+
 	.tab-titles{
 		margin: 10px 0 0 0px;
 	}
